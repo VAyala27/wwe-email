@@ -1,0 +1,873 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="supported-color-schemes" content="light dark" />
+    <title>HTML Email Template Boilerplate</title>
+    <style type="text/css">
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+      table {
+        border-spacing: 0;
+      }
+
+      td {
+        padding: 0;
+      }
+
+      p {
+        font-size: 15px;
+      }
+
+      img {
+        border: 0;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      @media screen and (max-width: 599.98px) {
+        .hero-descrption h2 {
+          font-size: 40px !important;
+        }
+        .hero-descrption p {
+          font-size: 14px !important;
+        }
+
+        .btn {
+          font-size: 16px !important;
+        }
+      }
+      @media only screen and (max-width: 399.98px) {
+        .hero-descrption h2 {
+          font-size: 36px !important;
+        }
+
+        .footer .content p a {
+          font-size: 10px !important;
+          line-height: 140% !important;
+        }
+        .footer .content p {
+          font-size: 10px !important;
+          line-height: 140% !important;
+        }
+
+        .footer .content span {
+          font-size: 10px !important;
+          line-height: 140% !important;
+        }
+
+        .footer .content h4 {
+          font-size: 16px !important;
+          line-height: 140% !important;
+        }
+      }
+
+      /* Custom Dark Mode Colors */
+
+      @media (prefers-color-scheme: dark) {
+        .sub-header .column p {
+          color: #383633 !important;
+        }
+      }
+    </style>
+
+    <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+        table{border-collapse: collapse; !important}
+      </style>
+    <![endif]-->
+  </head>
+  <body
+    style="margin: 0; padding: 0; min-width: 100%; background-color: #dde0e1"
+  >
+    <!--[if (gte mso 9)|(IE)]>
+      <style type="text/css">
+        body {
+          background-color: #dde0e1 !important;
+        }
+        body,
+        table,
+        td,
+        p,
+        a {
+          font-family: sans-serif, Arial, Helvitica !important;
+        }
+      </style>
+    <![endif]-->
+
+    <!-- Start of HTML EMAIL -->
+    <center style="width: 100%; table-layout: fixed; background-color: #dde0e1">
+      <div
+        style="
+          max-width: 600px;
+          background-color: #fafdfe;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        "
+      >
+        <!-- Preheader (remove) -->
+        <div
+          style="
+            font-size: 0px;
+            color: #fafdfe;
+            line-height: 1px;
+            mso-line-height-rule: exactly;
+            display: none;
+            max-width: 0px;
+            max-height: 0px;
+            opacity: 0;
+            overflow: hidden;
+            mso-hide: all;
+          "
+        >
+          This is our preheader text! SALE SALE 25% OFF!
+          <!-- Add Preheader Text (85-100 character) -->
+        </div>
+        <!-- End Preheader (remove) -->
+
+        <!--[if (gte mso 9)|(IE)]>
+         <table width="600" align="center" style="border-spacing: 0; color:#565656" role="presentation">
+            <tr>
+               <td style="padding: 0;">
+    <![endif]-->
+
+        <!-- Start of container -->
+        <table
+          align="center"
+          style="
+            border-spacing: 0;
+            color: #565656;
+            font-family: sans-serif, Arial, Helvitica !important;
+            background-color: #fafdfe;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            max-width: 600px;
+          "
+          role="presentation"
+        >
+          <!--Start of one-col header -->
+          <tr>
+            <td style="padding: 0px 0 0px 0; background-color: #000">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td
+                    class="header"
+                    style="padding: 0; font-size: 0; text-align: center"
+                  >
+                    <!--[if (gte mso 9)|(IE)]>
+                                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                                  <tr>
+                                  <td width="600" valign="top" style="padding: 0;">
+                               <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td
+                          class="padding"
+                          style="padding: 30px 20px 30px 20px"
+                        >
+                          <table
+                            class="content"
+                            style="border-spacing: 0; text-align: center"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  class="header-img"
+                                  style="width: 50px; max-width: 100%"
+                                  src="https://i.postimg.cc/LstKfTFH/wwe-logo.png"
+                                  alt="header-img"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                          </td>
+                        </tr>
+                      </table>
+                        <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col hero -->
+          <tr>
+            <td style="padding: 0px 0 0px 0">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0">
+                    <!--[if (gte mso 9)|(IE)]>
+                              <table width="100%" style="border-spacing: 0;" role="presentation">
+                              <tr>
+                              <td width="600" valign="top" style="padding: 0;">
+                           <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td class="padding" style="padding: 0px 0px 0px 0px">
+                          <table
+                            class="content"
+                            style="border-spacing: 0"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  class="one-col-img"
+                                  style="width: 600px; max-width: 100%"
+                                  src="https://i.postimg.cc/VvH31ZnF/wwe-undertaker-hero.jpg"
+                                  alt="top 10"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                      </td>
+                    </tr>
+                  </table>
+                    <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col hero   -->
+
+          <!--Start of one-col hero-descrption -->
+          <tr>
+            <td style="padding: 0px 0 0px 0; background-color: #000">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td
+                    class="hero-descrption"
+                    style="padding: 0; font-size: 0; text-align: center"
+                  >
+                    <!--[if (gte mso 9)|(IE)]>
+                                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                                  <tr>
+                                  <td width="600" valign="top" style="padding: 0;">
+                               <![endif]-->
+
+                    <table
+                      class="one-column"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td
+                          class="padding"
+                          style="padding: 10px 20px 20px 20px"
+                        >
+                          <table
+                            class="content"
+                            style="border-spacing: 0; text-align: center"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <h2
+                                  style="
+                                    color: #fff;
+                                    font-family: Arial;
+                                    font-size: 48px;
+                                    font-weight: 700;
+                                    letter-spacing: normal;
+                                    line-height: 120%;
+                                    margin: 0;
+                                    margin-top: 15px;
+                                    margin-bottom: 30px;
+                                  "
+                                >
+                                  JUST ANNOUNCED!
+                                </h2>
+                                <p
+                                  style="
+                                    font-size: 16px;
+                                    line-height: inherit;
+                                    color: #fff;
+                                    line-height: 120%;
+                                  "
+                                >
+                                  The critically acclaimed UNDERTAKER 1 deadMAN
+                                  SHOW will take place on Friday, October 7, at
+                                  the Theatre of Living Arts in Philadelphia
+                                  ahead of WWE Extreme Rules.
+                                </p>
+                                <p
+                                  style="
+                                    font-size: 16px;
+                                    line-height: inherit;
+                                    color: #fff;
+                                    line-height: 120%;
+                                    padding-bottom: 20px;
+                                  "
+                                >
+                                  Tickets go on sale Tuesday, Sept 6, at 10 a.m.
+                                  ET via Ticketmaster.
+                                </p>
+
+                                <a
+                                  class="btn"
+                                  style="
+                                    padding-left: 32px;
+                                    padding-right: 32px;
+                                    font-size: 18px;
+                                    display: inline-block;
+                                    letter-spacing: normal;
+                                    color: #ffffff;
+                                    background-color: #d0021b;
+                                    border-radius: 8px;
+                                    font-weight: 400;
+                                    padding-top: 15px;
+                                    padding-bottom: 15px;
+                                    font-family: 'Arial';
+                                    text-align: center;
+                                  "
+                                  href="http://example.com"
+                                >
+                                  Read More
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                          </td>
+                        </tr>
+                      </table>
+                        <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+
+          <!--Start of one-col hero-descrption -->
+          <tr>
+            <td style="padding: 0px 0 0px 0; background-color: #000">
+              <table width="100%" style="border-spacing: 0" role="presentation">
+                <tr>
+                  <td style="padding: 0; font-size: 0; text-align: center">
+                    <!--[if (gte mso 9)|(IE)]>
+                                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                                  <tr>
+                                  <td width="600" valign="top" style="padding: 0;">
+                               <![endif]-->
+
+                    <table
+                      class="one-column footer"
+                      style="
+                        border-spacing: 0;
+                        vertical-align: top;
+                        max-width: 600px;
+                        display: inline-block;
+                      "
+                      role="presentation"
+                    >
+                      <tr>
+                        <td
+                          class="padding"
+                          style="padding: 40px 20px 30px 20px"
+                        >
+                          <table
+                            class="content"
+                            style="border-spacing: 0; text-align: center"
+                            role="presentation"
+                          >
+                            <tr>
+                              <td>
+                                <img
+                                  class="footer-img"
+                                  style="width: 50px; max-width: 100%"
+                                  src="https://i.postimg.cc/LstKfTFH/wwe-logo.png"
+                                  alt="header-img"
+                                />
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td style="padding: 20px 20px 0px 20px">
+                                <h4
+                                  style="
+                                    font-size: 17px;
+                                    line-height: 22px;
+                                    font-weight: 600;
+                                    color: #ffffff;
+                                    text-align: center;
+                                  "
+                                >
+                                  Follow Us on Social
+                                </h4>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td style="padding: 0">
+                                <table
+                                  width="100%"
+                                  style="border-spacing: 0"
+                                  role="presentation"
+                                >
+                                  <tr>
+                                    <td
+                                      style="
+                                        text-align: center;
+                                        padding: 10px 0px 8px 0px;
+                                      "
+                                    >
+                                      <span
+                                        style="
+                                          width: 36px;
+                                          border-bottom-width: 1px;
+                                          border-bottom-color: #333333;
+                                          border-bottom-style: solid;
+                                          border-top-width: 1px;
+                                          border-top-color: #333333;
+                                          border-top-style: solid;
+                                          color: #ffffff;
+                                          padding: 4px 0;
+                                          font-size: 14px;
+                                          margin-right: 15px;
+                                        "
+                                        href="https://example.com"
+                                        target="_blank"
+                                      >
+                                        #RAW
+                                      </span>
+                                      <span
+                                        style="
+                                          width: 36px;
+                                          border-bottom-width: 1px;
+                                          border-bottom-color: #333333;
+                                          border-bottom-style: solid;
+                                          border-top-width: 1px;
+                                          border-top-color: #333333;
+                                          border-top-style: solid;
+                                          color: #ffffff;
+                                          padding: 4px 0;
+                                          font-size: 14px;
+                                          margin-right: 15px;
+                                        "
+                                        href="https://example.com"
+                                        target="_blank"
+                                      >
+                                        #SMACKDOWN
+                                      </span>
+                                      <span
+                                        style="
+                                          width: 36px;
+                                          border-bottom-width: 1px;
+                                          border-bottom-color: #333333;
+                                          border-bottom-style: solid;
+                                          border-top-width: 1px;
+                                          border-top-color: #333333;
+                                          border-top-style: solid;
+                                          color: #ffffff;
+                                          padding: 4px 0;
+                                          font-size: 14px;
+                                        "
+                                        href="https://example.com"
+                                        target="_blank"
+                                      >
+                                        #NXT
+                                      </span>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td style="padding: 0">
+                                <table
+                                  width="100%"
+                                  style="border-spacing: 0"
+                                  role="presentation"
+                                >
+                                  <tr>
+                                    <td
+                                      style="
+                                        text-align: center;
+                                        padding: 20px 0px 8px 0px;
+                                      "
+                                    >
+                                      <a
+                                        href="https://example.com"
+                                        target="_blank"
+                                      >
+                                        <img
+                                          style="padding: 0px 10px"
+                                          src="https://i.postimg.cc/Wz4QBcF3/wwe-twitter.png"
+                                          width="32px"
+                                          border="0"
+                                          title="twitter"
+                                          alt="twitter"
+                                        />
+                                      </a>
+                                      <a
+                                        href="https://example.com"
+                                        target="_blank"
+                                      >
+                                        <img
+                                          style="padding: 0px 10px"
+                                          src="https://i.postimg.cc/YqPHw0xw/wwe-facebook.png"
+                                          width="32px"
+                                          border="0"
+                                          title="facebook"
+                                          alt="facebook"
+                                        />
+                                      </a>
+                                      <a
+                                        href="https://example.com"
+                                        target="_blank"
+                                      >
+                                        <img
+                                          style="padding: 0px 10px"
+                                          src="https://i.postimg.cc/NjrwGtN2/wwe-instagram.png"
+                                          width="32px"
+                                          border="0"
+                                          title="instagram"
+                                          alt="instagram"
+                                        />
+                                      </a>
+                                      <a
+                                        href="https://example.com"
+                                        target="_blank"
+                                      >
+                                        <img
+                                          style="padding: 0px 10px"
+                                          src="https://i.postimg.cc/ydjMp8Nt/wwe-youtube.png"
+                                          width="32px"
+                                          border="0"
+                                          title="youtube"
+                                          alt="youtube"
+                                        />
+                                      </a>
+                                      <a
+                                        href="https://example.com"
+                                        target="_blank"
+                                      >
+                                        <img
+                                          style="padding: 0px 10px"
+                                          src="https://i.postimg.cc/MTzkYQz1/wwe-tiktok.png"
+                                          width="32px"
+                                          border="0"
+                                          title="tiktok"
+                                          alt="tiktok"
+                                        />
+                                      </a>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td
+                                class="padding"
+                                style="padding: 0px 0px 0px 0px"
+                              >
+                                <table
+                                  class="content"
+                                  style="
+                                    border-spacing: 0;
+                                    width: 540px;
+                                    max-width: 100%;
+                                  "
+                                  role="presentation"
+                                >
+                                  <tr>
+                                    <td
+                                      style="
+                                        text-align: center;
+                                        padding: 20px 0px 8px 0px;
+                                      "
+                                    >
+                                      <a
+                                        href="https://example.com"
+                                        target="_blank"
+                                        style="
+                                          color: #ebebeb;
+                                          text-decoration: none;
+                                          font-size: 12px;
+                                          line-height: 18px;
+                                          margin: 16px 0;
+                                          padding: 0px 10px;
+                                        "
+                                      >
+                                        Terms and Conditions
+                                      </a>
+                                      <a
+                                        href="https://example.com"
+                                        target="_blank"
+                                        style="
+                                          color: #ebebeb;
+                                          text-decoration: none;
+                                          font-size: 12px;
+                                          line-height: 18px;
+                                          margin: 16px 0;
+                                          padding: 0px 10px;
+                                        "
+                                      >
+                                        Privacy Policy
+                                      </a>
+                                      <a
+                                        href="https://example.com"
+                                        target="_blank"
+                                        style="
+                                          color: #ebebeb;
+                                          text-decoration: none;
+                                          font-size: 12px;
+                                          line-height: 18px;
+                                          margin: 16px 0;
+                                          padding: 0px 10px;
+                                        "
+                                      >
+                                        Copyright
+                                      </a>
+                                      <a
+                                        href="https://example.com"
+                                        target="_blank"
+                                        style="
+                                          color: #ebebeb;
+                                          text-decoration: none;
+                                          font-size: 12px;
+                                          line-height: 18px;
+                                          margin: 16px 0;
+                                          padding: 0px 10px;
+                                        "
+                                      >
+                                        Unsubscribe
+                                      </a>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td style="padding: 0">
+                                <table
+                                  class="content nav"
+                                  style="
+                                    border-spacing: 0;
+                                    text-align: center;
+                                    width: 540px;
+                                    max-width: 100%;
+                                  "
+                                  role="presentation"
+                                  align="center"
+                                >
+                                  <tr>
+                                    <td>
+                                      <p
+                                        style="
+                                          color: #999999;
+                                          font-size: 12px;
+                                          line-height: 18px;
+                                          margin: 20px 0;
+                                        "
+                                      >
+                                        All WWE programming, talent names,
+                                        images, likenesses, slogans, wrestling
+                                        moves, and logos are the exclusive
+                                        property of WWE and its subsidiaries.
+                                        All other trademarks, logos and
+                                        copyrights are the property of their
+                                        respective owners.
+                                      </p>
+
+                                      <p
+                                        style="
+                                          color: #999999;
+                                          font-size: 12px;
+                                          line-height: 18px;
+                                          margin: 20px 0 20px 0px;
+                                        "
+                                      >
+                                        © Copyright WWE 1980-2022 All Rights
+                                        Reserved
+                                      </p>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td align="center">
+                                <table>
+                                  <tr>
+                                    <td
+                                      height="1"
+                                      style="
+                                        background-color: #ccc;
+                                        width: 350px;
+                                        max-width: 100%;
+                                      "
+                                    ></td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td
+                                class="padding"
+                                style="padding: 0px 0px 0px 0px"
+                              >
+                                <table
+                                  class="content"
+                                  style="
+                                    border-spacing: 0;
+                                    width: 540px;
+                                    max-width: 100%;
+                                  "
+                                  role="presentation"
+                                >
+                                  <tr>
+                                    <td
+                                      style="
+                                        text-align: center;
+                                        padding: 20px 0px 8px 0px;
+                                      "
+                                    >
+                                      <span
+                                        href="https://example.com"
+                                        target="_blank"
+                                        style="
+                                          color: #999999;
+                                          font-size: 12px;
+                                          line-height: 18px;
+                                          margin: 20px 0;
+                                          padding: 0px 10px;
+                                        "
+                                      >
+                                        1241‍ East Main Street
+                                      </span>
+                                      <span
+                                        href="https://example.com"
+                                        target="_blank"
+                                        style="
+                                          color: #999999;
+                                          font-size: 12px;
+                                          line-height: 18px;
+                                          margin: 20px 0;
+                                          padding: 0px 10px;
+                                        "
+                                      >
+                                        Stamford‍, Connecticut
+                                      </span>
+                                      <span
+                                        href="https://example.com"
+                                        target="_blank"
+                                        style="
+                                          color: #999999;
+                                          font-size: 12px;
+                                          line-height: 18px;
+                                          margin: 20px 0;
+                                          padding: 0px 10px;
+                                        "
+                                      >
+                                        203.‍352‍.8600
+                                      </span>
+                                    </td>
+                                  </tr>
+
+                                  <tr>
+                                    <td>
+                                      <p
+                                        style="
+                                          color: #999999;
+                                          font-size: 12px;
+                                          line-height: 18px;
+                                          margin: 10px 0;
+                                          text-align: center;
+                                        "
+                                      >
+                                        Please do not reply to this email. If
+                                        you have inquiries, please
+                                        <a
+                                          style="color: #666666"
+                                          href="http://example.com"
+                                        >
+                                          Contact Us
+                                        </a>
+                                      </p>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!--[if (gte mso 9)|(IE)]>
+                          </td>
+                        </tr>
+                      </table>
+                        <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!--End of one col   -->
+        </table>
+        <!-- End of container -->
+
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
+      </tr>
+   </table>
+         <![endif]-->
+      </div>
+      <!-- End of HTML EMAIL -->
+    </center>
+  </body>
+</html>
